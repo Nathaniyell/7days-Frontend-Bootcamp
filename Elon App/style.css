@@ -17,6 +17,7 @@ body {
 }
 
 .inner-container {
+  /* background-color: red; */
   height: 60%;
   width: 80%;
   position: relative;
@@ -32,7 +33,7 @@ body {
   font-size: 30px;
 }
 
-.top-right {
+.top-right { 
   right: 0;
   top: 3%;
 }
@@ -62,4 +63,8 @@ body {
   background-color: white;
   border-radius: 15px;
   overflow: scroll;
+}
+
+@media(min-width= 540px){
+  /* Add media queries to make app responsive */
 }
