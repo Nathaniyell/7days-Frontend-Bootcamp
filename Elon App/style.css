@@ -7,8 +7,7 @@ body {
 
 .bg-container {
   height: 100vh;
-  background: url("https://assets.codepen.io/6060109/p1-elon-alt.png") no-repeat
-    left bottom;
+  background: url("https://assets.codepen.io/6060109/p1-elon-alt.png") no-repeat left bottom;
   background-size: 50%;
   display: flex;
   align-items: flex-end;
@@ -23,9 +22,7 @@ body {
   position: relative;
 }
 
-.top-right,
-.bottom-left,
-.bottom-right {
+.top-right, .bottom-left, .bottom-right {
   position: absolute;
 }
 
@@ -42,7 +39,7 @@ body {
 
 .top-right button {
   padding: 20px 40px;
-  background: #fe9c0b;
+  background: #FE9C0B;
   color: white;
   border: none;
   border-radius: 5px;
@@ -54,7 +51,7 @@ body {
   bottom: 5%;
   left: 0;
   font-size: 50px;
-  color: #00ff6c;
+  color: #00FF6C;
 }
 
 .bottom-right {
